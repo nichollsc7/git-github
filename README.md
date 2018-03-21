@@ -1,5 +1,27 @@
 # Git y GitHub
-Aprendizaje sobre github
+Aprendizaje sobre Git y  Github
+
+## Cualidades de Git
+
+Con git  es posible el manejo veloz de la información ya que guarda dato  sobre el cambio realizado y no todo el el cambio por versión para mayor velocidad y el poder trabajar de manera offline sin que afecte tú propio progreso en el repositorio.
+
+
+
+ + Permite trabajar con grandes proyectos.
+
+ +  Facilidad en el manejo desde tu propio computador
+
+ +  Codigo  bastamente completo con herramientas de utilidad
+
+ +  Manejo a gusto en que versión continuar progresando.
+
+ +  Poder replicar fácilmente  los repositorios
+
+ 
+
+
+
+
 
 ## Sistemas control de versiones
 Es un sistema que nos permite almacenar información, como biblioteca y separe en capitulos los avances que hagas en el libro( archivo o conjunto de archivos) a lo largo del tiempo.
