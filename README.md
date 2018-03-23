@@ -56,11 +56,14 @@ La información es guardada en el  computador y en el servidor donde esta almace
 ```
 git: lista de los subcomandos de Git
 
-git init
+git config --global user.email example@example.com :
 
-git status:
+git config --global user.name example :
 
-clear :
+git init:
+
+//muestra que archivos estan integrados, cuales esperan para ser integrados  y cuales  estan
+git status
 
 git add :
 
@@ -68,9 +71,14 @@ git log :
 
 git log --oneline :
 
-git mv
+git mv example:
 
-git rm
+git rm example: elimina rm
+
+git rm -f example: elimina forzado rm
+
+git version: muestra la version instalada de Git
+
 
 
 
@@ -80,6 +88,17 @@ git rm
     <summary>Comandos basicos Git 2</summary>
 
 ```
+git clone:
+
+git branch:
+
+git checkout:
+
+git commit:
+
+git diff:
+
+
 
 git log >bitacora_log.txt recomendable hacer un respaldo antes de cualquier reset.
 
@@ -88,6 +107,21 @@ git reset --soft: No toca los cambios en área de trabajo. Solo borra los títul
 git reset --mixed: es muy parecido a reset soft, la diferencia es que git reset mixed iguala el Stagin area al working directory. Significa que borra el commit, pero para que nosotros puedamos hacer un commit nos toca antes agregar los archivos al Stagin area.
 ```
 </details>
+
+<details>
+    <summary>Comandos basicos terminal</summary>
+
+```
+mkdir example: crea la carpeta con el nombre example
+
+ls:
+
+clear :limpia la terminal
+
+
+```
+</details>
+
 <details>
     <summary>Comandos entre Git y GitHub </summary>
 
