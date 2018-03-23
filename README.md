@@ -20,9 +20,6 @@ Con git  es posible el manejo veloz de la información ya que guarda dato  sobre
  
 
 
-
-
-
 ## Sistemas control de versiones
 Es un sistema que nos permite almacenar información, como biblioteca y separe en capitulos los avances que hagas en el libro( archivo o conjunto de archivos) a lo largo del tiempo.
 
@@ -66,11 +63,11 @@ git status: muestra los archivos que esperan ser agregados en el staging area, l
 
 git add example : agrega el archivo al Staging Area.
 
-git log : muestra los commit creados, con la fecha, el autor y el codigo de 40 digitos como referencia del mismo.
+git log : muestra los commit creados, con la fecha, el autor y el codigo de 40 digitos como Hash del mismo.
 
-git log --oneline :
+git log --oneline : muestra la lista de los commist creado con
 
-git mv example:
+git mv example: mueve, renombra una carpeta
 
 ```
 </details>
@@ -80,7 +77,7 @@ git mv example:
 ```
 git version: muestra la version instalada de Git
 
-git clone:
+git clone link : clona un directorio de el link dado
 
 git branch:
 
@@ -116,9 +113,13 @@ git commit --amend : concatena cambios al ultimo commit.
 
 git tag  number: etiquetar  que sirve para saber la versión de el ultimo commit.
 
-git tag -a number -m "mensaje de refencia": etiqueta el ultimo commit
+git tag: nos permite agregar etiquetas a nuestros cambios.
+-a para la anotación
+-m para el mensaje
 
-git tag -l: muestra los tag creados.
+-l nos muestra la lista de etiquetas
+-f para renombrar
+-d para borrar
 
 
 ```
@@ -166,11 +167,8 @@ git remote remove [origin] : Elimina una conexión con algún repositorio.
 ```
 </details>
 
-<details>
-    <summary>Comandos</summary>
+### Palabras claves
 
-```
+SHA significa “secure hash algorithm” (algoritmo de hashes seguros)
+¿que es un hash? es un algoritmo que convierte cualquier cosa en una cadena de caracteres de 40 caracteres
 
-
-```
-</details>
