@@ -60,27 +60,17 @@ git config --global user.email example@example.com :
 
 git config --global user.name example :
 
-git init:
+git init: iniciar un repositorio dentro de la carpeta o (git init example para que tenga nombre el repositorio)
 
-//muestra que archivos estan integrados, cuales esperan para ser integrados  y cuales  estan
-git status
+git status: muestra los archivos que esperan ser agregados en el staging area, los que son agregados y esperan confirmanción; guardados cuando se use el comando git commit.
 
-git add :
+git add example : agrega el archivo al Staging Area.
 
-git log :
+git log : muestra los commit creados, con la fecha, el autor y el codigo de 40 digitos como referencia del mismo.
 
 git log --oneline :
 
 git mv example:
-
-git rm example: elimina rm
-
-git rm -f example: elimina forzado rm
-
-git version: muestra la version instalada de Git
-
-
-
 
 ```
 </details>
@@ -88,17 +78,17 @@ git version: muestra la version instalada de Git
     <summary>Comandos basicos Git 2</summary>
 
 ```
+git version: muestra la version instalada de Git
+
 git clone:
 
 git branch:
 
 git checkout:
 
-git commit:
+git commit "example": agrega a los archivos que  estan en el Staging area y el nombre
 
 git diff:
-
-
 
 git log >bitacora_log.txt recomendable hacer un respaldo antes de cualquier reset.
 
@@ -108,16 +98,53 @@ git reset --mixed: es muy parecido a reset soft, la diferencia es que git reset 
 ```
 </details>
 
+</details>
+
+<details>
+    <summary>Comandos basicos de Git 3</summary>
+
+```
+git init add -A : Agrega todos los archivos del Working Directory al Staging Area.
+
+git init add [file or directory] : Agrega un archivo o carpeta del Working Directory al Staging Area.
+
+git init add -n [file or directory] : Simula el agregado de un archivo o directorio al Staging Area pero la verdad no lo hace.
+
+git rm --cached [file or directory] : Elimina un archivo o carpeta del Staging Area y lo deja en el Working Directory.
+
+git commit --amend : concatena cambios al ultimo commit.
+
+git tag  number: etiquetar  que sirve para saber la versión de el ultimo commit.
+
+git tag -a number -m "mensaje de refencia": etiqueta el ultimo commit
+
+git tag -l: muestra los tag creados.
+
+
+```
+</details>
+
 <details>
     <summary>Comandos basicos terminal</summary>
 
 ```
 mkdir example: crea la carpeta con el nombre example
 
-ls:
+ls: muestra los archivos dentro de la carpeta
 
 clear :limpia la terminal
 
+touch: crea un archivo dentro de la carpeta
+
+rm example: para borrar el archivo llamado example
+
+rm -rf example: para borrar la carpeta example
+
+vim example.txt : para editar  el archivo example(al finalizar salir con qw para salir y guardar) 
+
+q: para salir dentro de un archivo
+
+w: para guardar los cambios dentro de un archivo
 
 ```
 </details>
