@@ -26,7 +26,7 @@ Con git  es posible el manejo veloz de la información ya que guarda dato  sobre
 ## Sistemas control de versiones
 Es un sistema que nos permite almacenar información, como biblioteca y separe en capitulos los avances que hagas en el libro( archivo o conjunto de archivos) a lo largo del tiempo.
 
-### Clasificado en  3 tipos de SCV:
+## Clasificado en  3 tipos de SCV:
 
 #### Local
 
@@ -48,3 +48,68 @@ La información es guardada en el  computador y en el servidor donde esta almace
 
  + En caso de perdida del computador,  se podra recuperar  la información "que se perdio con el computador" pidiendo una copia de la información guardada  en la computadora principal o cualquier copia  del repositorio.
 
+ ## Comandos de Git y sus funciones
+
+<details>
+    <summary>Comandos basicos de Git</summary>
+
+```
+git: lista de los subcomandos de Git
+
+git init
+
+git status:
+
+clear :
+
+git add :
+
+git log :
+
+git log --oneline :
+
+git mv
+
+git rm
+
+
+
+```
+</details>
+<details>
+    <summary>Comandos basicos Git 2</summary>
+
+```
+
+git log >bitacora_log.txt recomendable hacer un respaldo antes de cualquier reset.
+
+git reset --soft: No toca los cambios en área de trabajo. Solo borra los títulos(restablece el encabezado del commit). Esto deja todos los cambios modificados, listos para hacer un commit nuevo y resumido.
+
+git reset --mixed: es muy parecido a reset soft, la diferencia es que git reset mixed iguala el Stagin area al working directory. Significa que borra el commit, pero para que nosotros puedamos hacer un commit nos toca antes agregar los archivos al Stagin area.
+```
+</details>
+<details>
+    <summary>Comandos entre Git y GitHub </summary>
+
+```
+git clone [https/ssh] : en github nos hace una copia del proyecto en nuestro perfil/repositorios para poder hacerle lo que queramos,dependendo de  si eliges https o ssh, el ssh pide verificar de forma remota por mayor seguridad.
+(https://help.github.com/articles/which-remote-url-should-i-use/)
+
+git remote add [origin] [SSH/HTTPS] : Conecta un repositorio con nuestro equipo local.
+
+git remote -v : Lista las conexiones existentes.
+
+git remote remove [origin] : Elimina una conexión con algún repositorio.
+
+
+```
+</details>
+
+<details>
+    <summary>Comandos</summary>
+
+```
+
+
+```
+</details>
