@@ -121,6 +121,20 @@ git tag: nos permite agregar etiquetas a nuestros cambios.
 -f para renombrar
 -d para borrar
 
+Git fetch origin master: Traer del remoto
+
+Git merge origin/master: combinar lo que se trajo de remoto con la rama donde se escribe este comando
+
+git push origin master : Asi subimos nuestros cambios a github
+
+
+git push origin master --tags : Tambien podemos enviar los tags 
+
+
+git push origin [otra_rama] : Podemos enviar otras ramas
+
+git pushorigin --all: enviar todas las ramas directamente una sola vez
+
 
 ```
 </details>
@@ -169,6 +183,13 @@ git remote remove [origin] : Elimina una conexión con algún repositorio.
 
 ### Palabras claves
 
-SHA significa “secure hash algorithm” (algoritmo de hashes seguros)
-¿que es un hash? es un algoritmo que convierte cualquier cosa en una cadena de caracteres de 40 caracteres
+SHA : “secure hash algorithm” (algoritmo de hashes seguros)
+
+Hash : es un algoritmo que convierte cualquier cosa en una cadena de caracteres de 40 caracteres
+
+Working Directory:
+
+Staging Area :
+
+
 
