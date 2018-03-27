@@ -187,9 +187,5 @@ SHA : “secure hash algorithm” (algoritmo de hashes seguros)
 
 Hash : es un algoritmo que convierte cualquier cosa en una cadena de caracteres de 40 caracteres
 
-Working Directory:
-
-Staging Area :
-
 
 
