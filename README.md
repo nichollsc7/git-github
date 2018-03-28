@@ -97,6 +97,15 @@ git log >bitacora_log.txt recomendable hacer un respaldo antes de cualquier rese
 git reset --soft: No toca los cambios en área de trabajo. Solo borra los títulos(restablece el encabezado del commit). Esto deja todos los cambios modificados, listos para hacer un commit nuevo y resumido.
 
 git reset --mixed: es muy parecido a reset soft, la diferencia es que git reset mixed iguala el Stagin area al working directory. Significa que borra el commit, pero para que nosotros puedamos hacer un commit nos toca antes agregar los archivos al Stagin area.
+
+git stash: es otro de los limbos, como el staging area. Para agregar los cambios estos deben estar en el staging area.
+
+git stash list: nos muestra la lista de stash que tengamos.
+
+git stash drop stash@{numero}: nos permite borrar un stash.
+
+git stash apply: aplicamos el último cambio
+
 ```
 </details>
 
@@ -139,6 +148,21 @@ git push origin master --tags : Tambien podemos enviar los tags
 git push origin [otra_rama] : Podemos enviar otras ramas
 
 git pushorigin --all: enviar todas las ramas directamente una sola vez
+
+git merge [rama]: Nos permite mezclar los cambios realizados en dicha rama con la rama en la que estamos.
+
+fast-forward: los mezcla automáticamente
+recursive/auto-merging: ambas ramas salieron al mismo tiempo y hay algo nuevo en la rama que la otra no recuerda, por eso hace la mezcla recursiva.
+manual merge: nos va a tocar decirle a git específicamente los cambios que queremos mezclar.
+
+git rebase: hace prácticamente lo mismo que merge, cambiamos la historia de nuestro proyecto sin crear bifurcaciones del proyecto. Es mejor usar merge
+Usar solo git rebase de manera local.
+
+-i: de manera interactiva, nos abrira el editor que tengamos definido en la configuración de git.
+
+git cherry-pick [SHA-1]: Cuando usamos el git cherry-pick no cambia de rama el commit, en este caso git hace una copia del commit y la pega en la rama que queremos con un SHA-1 diferente. 
+
+
 
 
 ```
