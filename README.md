@@ -65,7 +65,7 @@ git add example : agrega el archivo al Staging Area.
 
 git log : muestra los commit creados, con la fecha, el autor y el codigo de 40 digitos como Hash del mismo.
 
-git log --oneline : muestra la lista de los commist creado con
+git log --oneline : muestra la lista de los commist de manera resumida.
 
 git mv example: mueve, renombra una carpeta
 
@@ -79,13 +79,18 @@ git version: muestra la version instalada de Git
 
 git clone link : clona un directorio de el link dado
 
-git branch:
+git branch: git branch [nombre] se crea una nueva rama
+-l: listamos las ramas
+-d/-D [nombre]: borramos rama
+-m [nombre] [nombre_nuevo]: para renombrar ramas
 
-git checkout:
+git checkout [nombre/sha1]: Nos permite mover entre ramas y entre commits, no vamos a borrar nada. Acá es donde podemos movernos en el tiempo.
+
+git checkout -b [nombre_rama]: Nos permite crear una nueva rama sin necesidad de usar branch
 
 git commit "example": agrega a los archivos que  estan en el Staging area y el nombre
 
-git diff:
+git diff: sirve para comparar los cambios hechos entre commits con su respectiva versión(tag) o su numero hexadecimal o el sha1.
 
 git log >bitacora_log.txt recomendable hacer un respaldo antes de cualquier reset.
 
